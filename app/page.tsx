@@ -23,9 +23,9 @@ import {
 } from "lucide-react"
 
 import Image from "next/image"
-import header_image from "../public/header.jpg"
+import header_image from "../public/header.webp"
  import logo from "../public/logotipo.png"
-  import segunda from "../public/segunda.jpg"
+  import segunda from "../public/segunda.webp"
 import ContactoPage from "@/components/contacto/Contacto"
 
 // Agregar este hook personalizado después de la declaración del componente

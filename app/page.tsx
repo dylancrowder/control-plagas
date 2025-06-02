@@ -26,6 +26,7 @@ import Image from "next/image"
 import header_image from "../public/header.jpg"
  import logo from "../public/logotipo.png"
   import segunda from "../public/segunda.jpg"
+import ContactoPage from "@/components/contacto/Contacto"
 
 // Agregar este hook personalizado después de la declaración del componente
 const useScrollAnimation = () => {
@@ -985,19 +986,17 @@ export default function LonkoLanding() {
             </div>
           </div>
         </section>
+
+
+<ContactoPage></ContactoPage>
+
+
+
+
+        
       </AnimatedSection>
 
-      <div className="fixed bottom-6 right-6 z-50">
-        <a
-          href="https://wa.me/5492942409108?text=Hola%20LONKO,%20necesito%20información%20sobre%20sus%20servicios%20de%20control%20de%20plagas"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transform hover:scale-110 transition-all duration-300 animate-pulse"
-          aria-label="Contactar por WhatsApp"
-        >
-          <div className="text-2xl">💬</div>
-        </a>
-      </div>
+ 
       {/* Footer */}
       <footer className="bg-black text-white py-8">
         <div className="container mx-auto px-4 text-center">

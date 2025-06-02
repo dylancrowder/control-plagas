@@ -969,7 +969,7 @@ export default function LonkoLanding() {
                   <div className="flex flex-col items-center">
                     <MapPin className="h-12 w-12 text-orange-400 mb-4" />
                     <h3 className="font-semibold mb-2">Dirección</h3>
-                    <p className="text-gray-300">Lamadrid 978</p>
+                    <p className="text-gray-300">Estrecho de Magallanes 311</p>
                     <p className="text-gray-300">Chos Malal, Neuquén</p>
                   </div>
                 </AnimatedSection>

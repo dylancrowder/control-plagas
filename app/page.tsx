@@ -197,9 +197,7 @@ export default function LonkoLanding() {
                 {/* Botones de navegación */}
                 {[
                   { id: "servicios", label: "🛡️ Servicios" },
-                  { id: "sectores", label: "🏢 Sectores" },
-                  { id: "plagas", label: "🦟 Tipos de Plagas" },
-                  { id: "clientes", label: "⭐ Clientes" },
+            
                   { id: "contacto", label: "📞 Contacto" },
                 ].map((item) => (
                   <button
@@ -211,21 +209,7 @@ export default function LonkoLanding() {
                   </button>
                 ))}
 
-                {/* Llamada y CTA */}
-                <div className="border-t border-white/20 pt-3 mt-3">
-                  <a
-                    href="tel:2942409108"
-                    className="block px-3 py-2 text-emerald-300 font-semibold flex items-center text-lg"
-                  >
-                    <Phone className="h-5 w-5 mr-2" />
-                    Llamar: 2942-409108
-                  </a>
-                  <div className="px-3 py-2">
-                    <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white text-lg py-3">
-                      Consulta Gratis
-                    </Button>
-                  </div>
-                </div>
+         
               </div>
             </div>
           )}
@@ -425,7 +409,7 @@ export default function LonkoLanding() {
       {/* Services Section */}
 
       <AnimatedSection animation="fade-in-up">
-        <section className="relative py-16">
+        <section className="relative py-16 " id="servicios">
           {/* Imagen de fondo */}
 
           <Image
@@ -938,7 +922,7 @@ export default function LonkoLanding() {
 
       {/* Contact Section */}
       <AnimatedSection animation="fade-in-up">
-        <section className="py-16 bg-gray-900 text-white">
+        <section className="py-16 bg-gray-900 text-white" id="contacto">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <AnimatedSection animation="fade-in-up" delay={100} className="text-center mb-12">

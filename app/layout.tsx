@@ -15,8 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
-      <WhatsAppButton></WhatsAppButton>
+      <body>{children}
+            <WhatsAppButton></WhatsAppButton>
+      </body>
+  
+  
     </html>
   )
 }

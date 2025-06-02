@@ -265,7 +265,7 @@ export default function LonkoLanding() {
                 <p className="text-xl md:text-2xl mb-8 text-emerald-100 max-w-4xl mx-auto leading-relaxed">
                   Desde supermercados hasta hogares familiares.{" "}
                   <strong className="text-white">Eliminamos el riesgo</strong> de plagas urbanas, industriales y
-                  vectoriales con tecnología profesional veterinaria.
+                  vectoriales con tecnología profesional.
                   <span className="block mt-2 text-emerald-200">Protege tu negocio, empleados y familia.</span>
                 </p>
               </AnimatedSection>
@@ -307,7 +307,7 @@ export default function LonkoLanding() {
                       <div className="text-red-500 font-bold text-3xl mb-3">💰</div>
                       <h3 className="font-semibold text-gray-900 mb-2">Pérdidas Económicas</h3>
                       <p className="text-gray-600 text-sm">
-                        Productos contaminados, multas sanitarias y cierre temporal
+                        Productos contaminados, multas y cierre temporal
                       </p>
                     </CardContent>
                   </Card>
@@ -374,8 +374,8 @@ export default function LonkoLanding() {
               </AnimatedSection>
               <AnimatedSection animation="fade-in-up" delay={200}>
                 <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-                  Con más de <strong>15 años de experiencia</strong> y un{" "}
-                  <strong>Médico Veterinario certificado</strong>, garantizamos la eliminación total de plagas mientras
+                  Con más de <strong>35 años de experiencia</strong> y un{" "}
+                  <strong>Médico Veterinario Especialista</strong>, garantizamos la eliminación total de plagas mientras
                   protegemos tu salud y el medio ambiente.
                 </p>
               </AnimatedSection>
@@ -565,7 +565,7 @@ export default function LonkoLanding() {
                         <li>• Frigoríficos y mataderos</li>
                         <li>• Plantas procesadoras</li>
                         <li>• Distribuidoras de alimentos</li>
-                        <li>• Control de gorgojos industriales</li>
+                        <li>• Control de gorgojos</li>
                       </ul>
                     </CardContent>
                   </Card>
@@ -716,12 +716,9 @@ export default function LonkoLanding() {
                         </li>
                         <li className="flex items-center">
                           <CheckCircle className="h-4 w-4 text-orange-500 mr-2" />
-                          Insectos (cucarachas, hormigas)
+                          Insectos y Arácnidos (cucarachas, arañas)
                         </li>
-                        <li className="flex items-center">
-                          <CheckCircle className="h-4 w-4 text-orange-500 mr-2" />
-                          Arácnidos (arañas, escorpiones)
-                        </li>
+                
                         <li className="flex items-center">
                           <CheckCircle className="h-4 w-4 text-orange-500 mr-2" />
                           Aves (palomas, gorriones)
@@ -729,6 +726,10 @@ export default function LonkoLanding() {
                         <li className="flex items-center">
                           <CheckCircle className="h-4 w-4 text-orange-500 mr-2" />
                           Reptiles y avispas
+                        </li>
+                            <li className="flex items-center">
+                          <CheckCircle className="h-4 w-4 text-orange-500 mr-2" />
+                          Murciélagos
                         </li>
                       </ul>
                     </CardContent>
@@ -752,7 +753,7 @@ export default function LonkoLanding() {
                         </li>
                         <li className="flex items-center">
                           <CheckCircle className="h-4 w-4 text-red-500 mr-2" />
-                          Roedores industriales
+                          Roedores
                         </li>
                         <li className="flex items-center">
                           <CheckCircle className="h-4 w-4 text-red-500 mr-2" />

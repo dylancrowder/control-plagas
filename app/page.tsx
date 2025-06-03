@@ -181,12 +181,14 @@ export default function LonkoLanding() {
             </div>
             {/* Botón de menú móvil a la derecha */}
             <div className="flex items-center">
-              <button
-                onClick={toggleMobileMenu}
-                className="p-2 rounded-md text-white hover:text-emerald-300 hover:bg-white/10"
-              >
-                {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-              </button>
+   <button
+  onClick={toggleMobileMenu}
+  aria-label={isMobileMenuOpen ? "Cerrar menú" : "Abrir menú"}
+  className="p-2 rounded-md text-white hover:text-emerald-300 hover:bg-white/10"
+>
+  {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+</button>
+
             </div>
           </div>
 

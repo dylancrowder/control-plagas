@@ -174,8 +174,8 @@ export default function LonkoLanding() {
               <Image
                 src={logo}
                 alt="Lonko Logo"
-                width={220}
-                height={220}
+                width={180}
+         priority
                 className="mt-2 mb-2" // margen arriba y abajo para que no quede pegado
               />
             </div>
@@ -220,7 +220,7 @@ export default function LonkoLanding() {
 
       {/* Hero Section */}
       <AnimatedSection animation="fade-in-up">
-        <section className="relative text-white overflow-hidden h-auto min-h-[100vh]">
+        <section className="relative text-white overflow-hidden w-full  h-[100vh]">
           {/* Imagen de fondo con Next.js Image */}
           <div className="absolute inset-0 z-0">
             <Image
@@ -229,6 +229,7 @@ export default function LonkoLanding() {
               fill
               className="object-cover"
               priority
+      
             />
             <div className="absolute inset-0 bg-black/50" />
           </div>

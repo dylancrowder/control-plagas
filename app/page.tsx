@@ -225,6 +225,8 @@ export default function LonkoLanding() {
           <div className="absolute inset-0 z-0">
             <Image
               src={header_image}
+               placeholder="blur"
+    sizes="100vw"
               alt="Fondo de control de plagas"
               fill
               className="object-cover"

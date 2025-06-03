@@ -248,7 +248,7 @@ export default function LonkoLanding() {
                 </h1>
               </AnimatedSection>
               <AnimatedSection animation="fade-in-up" delay={300}>
-                <p className="text-xl md:text-2xl mb-8 text-emerald-100 max-w-4xl mx-auto leading-relaxed">
+                <p className="text-xl md:text-2xl mb-8 text-emerald-300 max-w-4xl mx-auto leading-relaxed">
                   Desde supermercados hasta hogares familiares.{" "}
                   <strong className="text-white">Eliminamos el riesgo</strong> de plagas urbanas, industriales y
                   vectoriales con tecnología profesional.

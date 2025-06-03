@@ -175,7 +175,10 @@ export default function LonkoLanding() {
                 src={logo}
                 alt="Lonko Logo"
                 width={180}
+                height={80}
          priority
+
+  placeholder="blur"
                 className="mt-2 mb-2" // margen arriba y abajo para que no quede pegado
               />
             </div>

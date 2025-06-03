@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://control-plagas.vercel.app/
+
+# Sitemaps
+Sitemap: https://control-plagas.vercel.app/sitemap.xml

@@ -1,0 +1,23 @@
+{
+  "name": "Lonko Sanitización y Control de Plagas",
+  "lang": "es-AR",
+  "short_name": "Lonko",
+  "description": "Servicio profesional de sanitización y control de plagas en Chos malal, Neuquén.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#006400",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/iconos/lonko-logo-192.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/images/iconos/lonko-logo-512.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ]
+}

@@ -68,7 +68,9 @@ export default function ContactoPage() {
                 <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>
                   <div className="grid gap-4 sm:grid-cols-2">
                     <div className="space-y-2">
-                      <Label className="text-gray-300" htmlFor="nombre">Nombre</Label>
+                      <Label className="text-gray-300" htmlFor="nombre">
+                        Nombre
+                      </Label>
                       <Input
                         id="nombre"
                         {...register("nombre")}
@@ -81,7 +83,9 @@ export default function ContactoPage() {
                       )}
                     </div>
                     <div className="space-y-2">
-                      <Label className="text-gray-300" htmlFor="apellido">Apellido</Label>
+                      <Label className="text-gray-300" htmlFor="apellido">
+                        Apellido
+                      </Label>
                       <Input
                         id="apellido"
                         {...register("apellido")}
@@ -95,7 +99,9 @@ export default function ContactoPage() {
                     </div>
                   </div>
                   <div className="space-y-2">
-                    <Label className="text-gray-300" htmlFor="email">Email</Label>
+                    <Label className="text-gray-300" htmlFor="email">
+                      Email
+                    </Label>
                     <Input
                       id="email"
                       type="email"
@@ -109,7 +115,9 @@ export default function ContactoPage() {
                     )}
                   </div>
                   <div className="space-y-2">
-                    <Label className="text-gray-300" htmlFor="telefono">Teléfono</Label>
+                    <Label className="text-gray-300" htmlFor="telefono">
+                      Teléfono
+                    </Label>
                     <Input
                       id="telefono"
                       {...register("telefono")}
@@ -122,15 +130,21 @@ export default function ContactoPage() {
                     )}
                   </div>
                   <div className="space-y-2">
-                    <Label className="text-gray-300" htmlFor="servicio">Servicio que le interesa</Label>
+                    <Label className="text-gray-300" htmlFor="servicio">
+                      Servicio que le interesa
+                    </Label>
                     <select
                       id="servicio"
                       {...register("servicio")}
                       className="w-full rounded-md bg-gray-700 border border-gray-600 text-white p-2 focus:border-orange-400 focus:ring-orange-400"
                     >
                       <option value="">Seleccione un servicio</option>
-                      <option value="control-insectos">Control de insectos</option>
-                      <option value="control-roedores">Control de roedores</option>
+                      <option value="control-insectos">
+                        Control de insectos
+                      </option>
+                      <option value="control-roedores">
+                        Control de roedores
+                      </option>
                       <option value="sanitizacion">Sanitización</option>
                       <option value="fumigacion">Fumigación general</option>
                     </select>
@@ -141,7 +155,9 @@ export default function ContactoPage() {
                     )}
                   </div>
                   <div className="space-y-2">
-                    <Label className="text-gray-300" htmlFor="mensaje">Mensaje</Label>
+                    <Label className="text-gray-300" htmlFor="mensaje">
+                      Mensaje
+                    </Label>
                     <Textarea
                       id="mensaje"
                       {...register("mensaje")}
@@ -173,7 +189,7 @@ export default function ContactoPage() {
                 <div className="flex-1 overflow-hidden rounded-lg">
                   <iframe
                     title="Mapa de ubicación Lonko"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.385147800106!2d-64.13756362444511!3d-31.40351299562899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432bd583bf2c027%3A0x10aad2b8a537c25a!2sLavadero%203%20Amigos!5e0!3m2!1ses!2sar!4v1743965170029!5m2!1ses!2sar"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29031.928171729578!2d-70.24505308727937!3d-37.35649173004719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967273c989fa6bc7%3A0xc548edf624000f83!2s%22Lonko%22%20Control%20de%20plagas%20y%20desinfecciones!5e0!3m2!1ses!2sar!4v1749065072536!5m2!1ses!2sar"
                     className="w-full h-full"
                     style={{ border: 0 }}
                     loading="lazy"

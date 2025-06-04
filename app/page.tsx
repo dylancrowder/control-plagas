@@ -898,25 +898,34 @@ export default function LonkoLanding() {
                 </div>
               </AnimatedSection>
 
-              <AnimatedSection animation="fade-in-up" delay={300}>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                  <Button
-                    size="lg"
-                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-xl font-bold shadow-lg transform hover:scale-105 transition-all"
-                  >
-                    <Phone className="mr-2 h-6 w-6" />
-                    LLAMAR: 2942-409108
-                  </Button>
-                  <Button
-                    size="lg"
-                    variant="outline"
-                    className="border-black text-black hover:bg-white hover:text-emerald-800 hover-border-emerald-800 px-8 py-4 text-xl font-bold"
-                  >
-                    <Mail className="mr-2 h-6 w-6" />
-                    Enviar WhatsApp
-                  </Button>
-                </div>
-              </AnimatedSection>
+                <AnimatedSection animation="fade-in-up" delay={300}>
+      <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <a href="tel:+5492942409108">
+          <Button
+            size="lg"
+            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 text-xl font-bold shadow-lg transform hover:scale-105 transition-all"
+          >
+            <Phone className="mr-2 h-6 w-6" />
+            LLAMAR: 2942-409108
+          </Button>
+        </a>
+        <a
+          href="https://wa.me/5492942409108"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            size="lg"
+            variant="outline"
+            className="border-black text-black hover:bg-white hover:text-emerald-800 hover-border-emerald-800 px-8 py-4 text-xl font-bold"
+          >
+            <Mail className="mr-2 h-6 w-6" />
+            Enviar WhatsApp
+          </Button>
+        </a>
+      </div>
+    </AnimatedSection>
+
 
               <AnimatedSection animation="fade-in-up" delay={400}>
                 <p className="mt-6 text-emerald-200">

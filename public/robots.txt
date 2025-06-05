@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://control-plagas.vercel.app/
+Host: https://www.lonkomip.com/
 
 # Sitemaps
-Sitemap: https://control-plagas.vercel.app/sitemap.xml
+Sitemap: https://www.lonkomip.com/sitemap.xml

@@ -71,7 +71,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <Head>
+      <Head> 
+        //borrar
         <meta name="google-site-verification" content="CZacylOgdRSV9uU3fjvbjubEnn4nq8TOy5bNHxvDCKw" />
         {/* ✅ Datos estructurados Schema.org */}
         <script

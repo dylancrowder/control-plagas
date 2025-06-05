@@ -72,6 +72,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <Head>
+        <meta name="google-site-verification" content="CZacylOgdRSV9uU3fjvbjubEnn4nq8TOy5bNHxvDCKw" />
         {/* ✅ Datos estructurados Schema.org */}
         <script
           type="application/ld+json"
@@ -81,7 +82,7 @@ export default function RootLayout({
               "@type": "LocalBusiness",
               name: "Lonko",
               url: "https://www.lonkomip.com/",
-              telephone: "+54 351 123-4567",
+              telephone: "+54 2942-409108",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "Estrecho de Magallanes 311",

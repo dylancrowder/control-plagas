@@ -16,9 +16,6 @@ export const metadata: Metadata = {
       { url: "/favicon.png", type: "image/png", sizes: "32x32" },
       { url: "/favicon.png", type: "image/png", sizes: "16x16" },
     ],
-    apple: [
-      { url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" },
-    ],
   },
   authors: [{ name: "Lonko" }],
   creator: "Lonko",
@@ -34,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_AR",
-    url: "https://www.lonko.com.ar",
+    url: "https://www.lonkomip.com/",
     title:
       "Lonko - Servicios de Desinfección y Control de Plagas en Chos Malal, Neuquén",
     description:
@@ -42,7 +39,7 @@ export const metadata: Metadata = {
     siteName: "Lonko",
     images: [
       {
-        url: "https://www.lonko.com.ar/favicon.ico",
+        url: "https://www.lonkomip.com/favicon.png",
         width: 1200,
         height: 630,
         alt: "Lonko - Servicios de Desinfección y Control de Plagas en Chos Malal, Neuquén",
@@ -55,7 +52,7 @@ export const metadata: Metadata = {
       "Lonko - Servicios de Desinfección y Control de Plagas en Chos Malal, Neuquén",
     description:
       "Lonko ofrece servicios profesionales de desinfección, sanitización y Control de Plagas en Chos Malal, Neuquén.",
-    images: ["/images/favicon.ico"],
+    images: ["/public/favicon.png"],
   },
   robots: {
     index: true,
@@ -83,19 +80,19 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               name: "Lonko",
-              url: "https://www.lonko.com.ar",
+              url: "https://www.lonkomip.com/",
               telephone: "+54 351 123-4567",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Av. Ejemplo 1234",
-                addressLocality: "Córdoba",
-                addressRegion: "Córdoba",
+                streetAddress: "Estrecho de Magallanes 311",
+                addressLocality: "Chos Malal",
+                addressRegion: "Neuquén",
                 postalCode: "5000",
                 addressCountry: "AR",
               },
-              sameAs: [
-                "https://www.facebook.com/lonkocontrolambiental",
-              ],
+
+              description:
+                "Lonko ofrece servicios profesionales de desinfección, sanitización y control de plagas en Chos Malal, Neuquén. Trabajamos con equipos especializados y productos certificados.",
             }),
           }}
         />

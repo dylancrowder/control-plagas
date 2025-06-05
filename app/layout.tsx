@@ -5,11 +5,11 @@ import Head from 'next/head'
 
 export const metadata: Metadata = {
   title:
-    "Lonko - Servicios de Desinfección y Control Ambiental en Córdoba, Argentina",
+    "Lonko - Servicios de Desinfección y Control Ambiental en Chos Malal, Neuquén",
   description:
-    "Lonko ofrece servicios profesionales de desinfección, sanitización y control ambiental en Córdoba. Trabajamos con equipos especializados y productos certificados.",
+    "Lonko ofrece servicios profesionales de desinfección, sanitización y control ambiental en Chos Malal, Neuquén. Trabajamos con equipos especializados y productos certificados.",
   keywords:
-    "desinfección, sanitización, control ambiental, Córdoba, fumigación, control de plagas, limpieza industrial",
+    "desinfección, sanitización, control ambiental, Chos Malal, fumigación, control de plagas, limpieza industrial",
   icons: {
     icon: [
       { url: "/favicon.ico", type: "image/x-icon" },
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     locale: "es_AR",
     url: "https://www.lonko.com.ar",
     title:
-      "Lonko - Servicios de Desinfección y Control Ambiental en Córdoba, Argentina",
+      "Lonko - Servicios de Desinfección y Control Ambiental en Chos Malal, Neuquén",
     description:
-      "Lonko ofrece servicios profesionales de desinfección, sanitización y control ambiental en Córdoba. Trabajamos con equipos especializados y productos certificados.",
+      "Lonko ofrece servicios profesionales de desinfección, sanitización y control ambiental en Chos Malal, Neuquén. Trabajamos con equipos especializados y productos certificados.",
     siteName: "Lonko",
     images: [
       {
@@ -52,9 +52,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Lonko - Servicios de Desinfección y Control Ambiental en Córdoba, Argentina",
+      "Lonko - Servicios de Desinfección y Control Ambiental en Chos Malal, Neuquén",
     description:
-      "Lonko ofrece servicios profesionales de desinfección, sanitización y control ambiental en Córdoba.",
+      "Lonko ofrece servicios profesionales de desinfección, sanitización y control ambiental en Chos Malal, Neuquén.",
     images: ["/images/favicon.ico"],
   },
   robots: {

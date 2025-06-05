@@ -5,11 +5,11 @@ import Head from 'next/head'
 
 export const metadata: Metadata = {
   title:
-    "Lonko - Servicios de Desinfección y Control Ambiental en Chos Malal, Neuquén",
+    "Lonko - Servicios de Desinfección y Control de Plagas en Chos Malal, Neuquén",
   description:
-    "Lonko ofrece servicios profesionales de desinfección, sanitización y control ambiental en Chos Malal, Neuquén. Trabajamos con equipos especializados y productos certificados.",
+    "Lonko ofrece servicios profesionales de desinfección, sanitización y control de plagas en Chos Malal, Neuquén. Trabajamos con equipos especializados y productos certificados.",
   keywords:
-    "desinfección, sanitización, control ambiental, Chos Malal, fumigación, control de plagas, limpieza industrial",
+    "desinfección, sanitización, control de plagas, Chos Malal, fumigación, control de plagas, limpieza industrial",
   icons: {
     icon: [
       { url: "/favicon.ico", type: "image/x-icon" },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     address: true,
     telephone: true,
   },
-  category: "Servicios de Desinfección y Control Ambiental",
+  category: "Servicios de Desinfección y Control de Plagas",
   applicationName: "Lonko",
   themeColor: "#2c3e50",
   openGraph: {
@@ -36,25 +36,25 @@ export const metadata: Metadata = {
     locale: "es_AR",
     url: "https://www.lonko.com.ar",
     title:
-      "Lonko - Servicios de Desinfección y Control Ambiental en Chos Malal, Neuquén",
+      "Lonko - Servicios de Desinfección y Control de Plagas en Chos Malal, Neuquén",
     description:
-      "Lonko ofrece servicios profesionales de desinfección, sanitización y control ambiental en Chos Malal, Neuquén. Trabajamos con equipos especializados y productos certificados.",
+      "Lonko ofrece servicios profesionales de desinfección, sanitización y Control de Plagas en Chos Malal, Neuquén. Trabajamos con equipos especializados.",
     siteName: "Lonko",
     images: [
       {
         url: "https://www.lonko.com.ar/favicon.ico",
         width: 1200,
         height: 630,
-        alt: "Lonko - Servicios de Desinfección y Control Ambiental",
+        alt: "Lonko - Servicios de Desinfección y Control de Plagas en Chos Malal, Neuquén",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Lonko - Servicios de Desinfección y Control Ambiental en Chos Malal, Neuquén",
+      "Lonko - Servicios de Desinfección y Control de Plagas en Chos Malal, Neuquén",
     description:
-      "Lonko ofrece servicios profesionales de desinfección, sanitización y control ambiental en Chos Malal, Neuquén.",
+      "Lonko ofrece servicios profesionales de desinfección, sanitización y Control de Plagas en Chos Malal, Neuquén.",
     images: ["/images/favicon.ico"],
   },
   robots: {

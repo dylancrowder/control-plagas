@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
     });
 
     await transporter.sendMail({
-      from: `"Formulario de Contacto" <${process.env.GMAIL_USER}>`,
+       from: `"${nombre} ${apellido}" <${process.env.GMAIL_USER}>`,
       to: process.env.GMAIL_USER,
       subject: "Nuevo mensaje de contacto",
       html: `

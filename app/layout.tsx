@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { WhatsAppButton } from '@/components/WspButn'
-import Head from 'next/head'
+import Script from 'next/script'
 
 export const metadata: Metadata = {
   title:
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Lonko ofrece servicios profesionales de desinfección, sanitización y control de plagas en Chos Malal, Neuquén. Trabajamos con equipos especializados y productos certificados.",
   keywords:
-    "desinfección, sanitización, control de plagas, Chos Malal, fumigación, control de plagas, limpieza industrial",
+    "desinfección, sanitización, control de plagas, Chos Malal, fumigación, limpieza industrial",
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/x-icon" },
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
       "Lonko - Servicios de Desinfección y Control de Plagas en Chos Malal, Neuquén",
     description:
       "Lonko ofrece servicios profesionales de desinfección, sanitización y Control de Plagas en Chos Malal, Neuquén.",
-    images: ["/public/favicon.png"],
+    images: ["/favicon.png"],
   },
   robots: {
     index: true,
@@ -71,9 +71,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <Head> 
-        //borrar
+      <head>
         <meta name="google-site-verification" content="CZacylOgdRSV9uU3fjvbjubEnn4nq8TOy5bNHxvDCKw" />
+
         {/* ✅ Datos estructurados Schema.org */}
         <script
           type="application/ld+json"
@@ -92,33 +92,34 @@ export default function RootLayout({
                 postalCode: "5000",
                 addressCountry: "AR",
               },
-
               description:
-                "Lonko ofrece servicios profesionales de desinfección, sanitización y control de plagas en Chos Malal, Neuquén. Trabajamos con equipos especializados y productos certificados.",
+                "Lonko ofrece servicios profesionales de desinfección, sanitización y control de plagas en Chos Malal, Neuquén.",
             }),
-          }}
-        />
-
-        {/* ✅ Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7K55VT53P"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-E7K55VT53P');
-            `,
           }}
         />
 
         {/* ✅ Manifest */}
         <link rel="manifest" href="/manifest.json" />
-      </Head>
+      </head>
 
       <body>
         {children}
         <WhatsAppButton />
+
+        {/* ✅ Google Analytics + Google Ads */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-E7K55VT53P"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-E7K55VT53P'); // Google Analytics
+            gtag('config', 'AW-17201041594'); // Google Ads
+          `}
+        </Script>
       </body>
     </html>
   );

@@ -115,8 +115,11 @@ export default function RootLayout({
           src="https://www.googletagmanager.com/gtag/js?id=G-E7K55VT53P"
           strategy="afterInteractive"
         />
-        <Script id="gtag-init" strategy="afterInteractive">
-          {`
+
+
+          <script
+          dangerouslySetInnerHTML={{
+            __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
@@ -126,8 +129,9 @@ export default function RootLayout({
 
             // Google Ads
             gtag('config', 'AW-17201041594');
-          `}
-        </Script>
+          `,
+          }}
+        />
       </body>
     </html>
   );

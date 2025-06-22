@@ -72,7 +72,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-        <meta name="google-site-verification" content="CZacylOgdRSV9uU3fjvbjubEnn4nq8TOy5bNHxvDCKw" />
+        <meta
+          name="google-site-verification"
+          content="CZacylOgdRSV9uU3fjvbjubEnn4nq8TOy5bNHxvDCKw"
+        />
 
         {/* ✅ Datos estructurados Schema.org */}
         <script
@@ -108,6 +111,7 @@ export default function RootLayout({
 
         {/* ✅ Google Analytics + Google Ads */}
         <Script
+          async
           src="https://www.googletagmanager.com/gtag/js?id=G-E7K55VT53P"
           strategy="afterInteractive"
         />
@@ -116,8 +120,12 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-E7K55VT53P'); // Google Analytics
-            gtag('config', 'AW-17201041594'); // Google Ads
+
+            // Google Analytics (GA4)
+            gtag('config', 'G-E7K55VT53P');
+
+            // Google Ads
+            gtag('config', 'AW-17201041594');
           `}
         </Script>
       </body>
